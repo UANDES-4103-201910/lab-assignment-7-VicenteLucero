@@ -1,3 +1,132 @@
 /* Define your CSS styles here */
 /* Remember to validate your CSS at https://jigsaw.w3.org/css-validator/ */
+body {
+	background-color: Gray;
+}
+
+#kcontainer{
+	background-color: black;
+}
+
+.row{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.row > div {
+	text-align: center;
+	line-height: 40px;
+	font-size: 30px;
+}
+
+
+.key {
+	border-style: solid;
+	border-width: medium;
+	border-radius: 10px;
+	width: 100px;
+	background-color: lightslategray;
+	text-align: center;
+	color: white;
+
+}
+.key:hover{
+	cursor: pointer;
+}
+
+.key:active{
+	background-color: darkolivegreen;
+}
+
+.tab {
+	border-style: solid;
+	border-width: medium;
+	border-radius: 10px;
+	width: 140px;
+	background-color: lightslategray;
+	text-align: center;
+	color: white;
+}
+
+.tab:hover{
+	cursor: pointer;
+}
+
+.tab:active{
+	background: darkolivegreen;
+}
+
+.back {
+	border-style: solid;
+	border-width: medium;
+	border-radius: 10px;
+	width: 140px;
+	background-color: lightslategray;
+	text-align: center;
+	color: white;
+}
+
+.back:hover{
+	cursor: pointer;
+}
+
+.back:active{
+	background: darkolivegreen;
+}
+
+.shift {
+	border-style: solid;
+	border-width: medium;
+	border-radius: 10px;
+	width: 150px;
+	background-color: orange;
+	text-align: center;
+	color: white;
+}
+.shift:hover {
+	cursor: pointer;
+}
+
+.shift:active{
+	background: darkolivegreen;
+}
+
+.AcCaEn {
+	border-style: solid;
+	border-width: medium;
+	border-radius: 10px;
+	width: 150px;
+	background-color: orange;
+	text-align: center;
+	color: white;
+}
+
+.AcCaEn:hover{
+	cursor: pointer;
+}
+
+.AcCaEn:active{
+	background: darkolivegreen;
+}
+
+.space {
+	border-style: solid;
+	border-width: medium;
+	border-radius: 10px;
+	width: 900px;
+	background-color: lightslategray;
+}
+
+.space:hover{
+	cursor: pointer;
+}
+
+.space:active{
+	background: darkolivegreen;
+}
+
+
+
+
 
